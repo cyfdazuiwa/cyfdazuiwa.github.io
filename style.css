@@ -254,6 +254,21 @@ p {
   float: left;
 }
 
+.vedio {
+  width: 500px;
+  height: 300px;
+}
+
+.vedio {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.vedio {
+  transform: scale(1.2);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
 
 .redbook {
   transition: transform 0.5s ease;
@@ -382,6 +397,9 @@ footer {
   padding-top: 2rem;
 }
 
+
+
+
 .light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
@@ -415,7 +433,7 @@ figure {
 
 
 #fixed {
-  background-image: url('img/1-1.jpeg');
+  background-image: url('1-1.jpeg');
   height: 600px;
   background-repeat: no-repeat;
   background-attachment: fixed;
