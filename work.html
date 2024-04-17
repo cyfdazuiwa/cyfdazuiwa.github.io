@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" href="#index.html" class="image-1"></a>
+			<img src="img/cyf-zpj.png" href="#introduce.html" class="cyf"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">主页</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="introduce.html">关于我</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#work">获奖作品</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="daily.html">日常设计</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#connect">联系我</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Vedio -->
+	<section id="work">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-4">
+					<h1 class="heading">POP MART</h1>
+					<h2 class="heading-2">泡泡玛特 视频类作品</h2>
+
+					<a href=# class="jt"><img src="img/jt.png" class="jt-2"></a>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+
+				</div>
+				<div class="col-6 col-md-4">
+
+					<video title="popmart" id="video1" width="450" style="margin-top:5px;">
+						<source src="video/popmart.mp4" />
+						Your browser does not support HTML5 video.
+					</video> <br />
+					<button type="button" onclick="playPause()" class="btn btn-outline-light btn-sm"><svg
+							xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-pause-fill" viewBox="0 0 16 16">
+							<path
+								d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5" />
+						</svg>/<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-play-fill" viewBox="0 0 16 16">
+							<path
+								d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+						</svg></button>
+					<button type="button" class="btn btn-outline-light btn-sm" onclick="makeBig()"><svg
+							xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-plus-lg" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+						</svg>
+					</button>
+					<button type="button" class="btn btn-outline-light btn-sm" onclick="makeNormal()">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-volume-up-fill" viewBox="0 0 16 16">
+							<path
+								d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z" />
+							<path
+								d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z" />
+							<path
+								d="M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06" />
+						</svg></button>
+					<script>
+						var myVideo = document.getElementById("video1");
+
+						function playPause() {
+							if (myVideo.paused)
+								myVideo.play();
+							else
+								myVideo.pause();
+						}
+
+						function makeBig() {
+							myVideo.width = 750;
+						}
+
+					</script>
+					<br><br><br><br><br>
+					</video>
+				</div>
+			</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<!--- Two Column Section -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2 class="heading-2">创意简介</h2>
+				<p class="paragraph">主人公突破世俗成见，大胆仿妆泡泡玛特，展现出年轻人多元的审美和勇敢
+					表达的生活态度，而这份属于年轻的流光溢彩，正是泡泡玛特所赋予的。</p>
+				<br>
+				<h2 class="heading-2">所获奖项</h2>
+				<p class="paragraph">第15届全国大学生广告艺术大赛
+					<br>
+					<br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-award-fill" viewBox="0 0 16 16">
+						<path
+							d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+					</svg>
+					全国二等奖
+					<br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-award" viewBox="0 0 16 16">
+						<path
+							d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+					</svg> 北京赛区二等奖
+					<br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-award-fill" viewBox="0 0 16 16">
+						<path
+							d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+					</svg> 泡泡玛特企业特别奖
+					<br>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-award-fill" viewBox="0 0 16 16">
+						<path
+							d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+					</svg>
+					小红书人气奖
+				</p>
+				<br>
+				<a href="#https://www.xiaohongshu.com/explore/651d76e9000000001f0055fe" class="btn btn-primary">了解更多</a>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/vedio.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<hr class="my-4">
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+	<!--- Emoji Section -->
+	<button class="fun" data-toggle="collapse" data-target="#emoji">
+		<h4 class="card-title">Click to view awards</h4>
+	</button>
+	<div id="emoji" class="collapse">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="award/1.jpg">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="award/2.jpg">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="award/3.jpg">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="award/4.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Meet the team -->
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-12">
+				<h1 class="heading"><br>
+
+					<br>THE 31TH UNIVERSIADE
+				</h1>
+				<h3 class="heading-3">2023 全球大学生运动会·成都</h3>
+			</div>
+		</div>
+	</div>
+
+	<!--- jt -->
+	<div class="container-fluid">
+		<div class="row ">
+			<div class="col-12">
+				<a href=# class="jt"><img src="img/jt.png" class="jt-2"></a>
+				<br>
+				<br>
+				<br>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--- Cards -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/chengdu/1.jpg">
+					<div class="card-body">
+						<h4 class="card-title">游泳</h4>
+						<p class="card-text">生活从简，运动从水，水因简单而纯净，人因简单而快乐，泳无止境，泳敢向前。
+						</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/chengdu/2.jpg">
+					<div class="card-body">
+						<h4 class="card-title">成都火锅</h4>
+						<p class="card-text">炙热的香气在空气中漫舞，唤醒味蕾的渴望。舌尖轻舔，一阵辛辣与麻醉感涌上心头……
+						</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/chengdu/3.jpg">
+					<div class="card-body">
+						<h4 class="card-title">盖碗茶</h4>
+						<p class="card-text">杯中乾坤大，茶中日月长。成都的老茶馆里，没有喧嚣，没有浮躁，有的只是市井烟火气。
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!--- Two Column Section -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6">
+				<br>
+				<br>
+				<br>
+				<br>
+				<h3 class="heading-3"><br><br>《游泳巴适》创作理念</h3>
+				<p class="paragraph">“巴适”代表舒适，表达熊猫也能实现梦想，与全球大学生一起体验比赛游泳，生动有趣的传播方言文化。
+					通过结合成都特色，展现独特形象，激发人们参与运动、感受成都的热情。</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+			</div>
+			<div class="col-lg-6">
+				<h3 class="heading-3">
+					<br><br><br>
+					<br>
+					<br>
+					<br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-award" viewBox="0 0 16 16">
+						<path
+							d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+					</svg> 成都大运会公益海报优秀制作奖
+				</h3>
+
+
+				<p class="paragraph">本海报以成都的熊猫爬楼为背景，以游泳项目为主题。
+					口号“Chengdu Makes Dreams Come True”随水波变形，传递清凉感，激发群众参与运动的热情。</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+	<hr class="my-4">
+
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-lg-6">
+				<a href="introduce.html" class="btn btn-outline-light btn-lg">关于我</a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class="col-lg-6">
+				<a href="daily.html" class="btn btn-outline-light btn-lg">日常设计</a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+
+
+	<!--- Connect -->
+	<section id="connect">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-12">
+					<h4 class="heading-4">Connect</h4>
+				</div>
+				<div class="col-12 social">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--- Footer -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<a href=# class="wx"><img src="img/wx.jpeg" class="wx"></a>
+					<h5>My wx</h5>
+					<hr class="light">
+					<p>0731-187-7335-1013</p>
+					<p>1828062434@qq.com</p>
+					<p>100 Street Name</p>
+					<p>City, State, 00000</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<img src="img/red.png" class="redbook"></a>
+					<h5>My redbook</h5>
+					<hr class="light">
+					<p>Monday: 9am-5pm</p>
+					<p>Saturday: 10am-4pm</p>
+					<p>Sunday: closed</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Services</h5>
+					<hr class="light">
+					<p>City, State, 00000</p>
+					<p>City, State, 00000</p>
+					<p>City, State, 00000</p>
+				</div>
+				<div class="col-12">
+					<hr class="light">
+					<h5>&copy; cyfdazuiwa.com</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

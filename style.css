@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,
+body {
+  font-family: 'MyCustomFont', sans-serif;
+  color: #222;
+  background-color: #e82d84;
+}
+
+
+.img-myself {
+  width: 400px;
+  height: 500px;
+}
+
+
+.image-1 {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.image-1:hover {
+  transform: scale(1.2);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+
+.title1 {
+  text-align: left;
+}
+
+.title2 {
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
+}
+
+.btn {
+  text-align: center;
+}
+
+
+
+h4 {
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  text-align: left;
+
+}
+
+.card-text {
+  text-align: left;
+  font-size: 14px;
+  color: #e82d84;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 20px;
+  color: #e82d84;
+}
+
+.photo {
+  width: 100px;
+  height: 60px;
+}
+
+.cyf-2 {
+  width: 768px;
+  height: 200px;
+}
+
+.cyf {
+  width: 192px;
+  height: 108px;
+}
+
+.wx {
+  width: 70px;
+  height: 70px;
+}
+
+.wx {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.wx:hover {
+  transform: scale(1.2);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+.cyf {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.cyf:hover {
+  transform: scale(1.2);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+.cyf-2 {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.cyf-2:hover {
+  transform: scale(1.2);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+.jt {
+  width: 60px;
+  height: 60px;
+}
+
+.jt-2 {
+  width: 100px;
+  height: 100px;
+}
+
+.jt-3 {
+  width: 70px;
+  height: 70px;
+}
+
+.jt-3 {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.jt-3:hover {
+  transform: scale(1.5);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+.redbook {
+  top: 100px;
+  left: 500px;
+  width: 80px;
+  height: 80px;
+}
+
+* {
+  padding: 100;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+
+
+.head {
+  top: 100px;
+  left: 350px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.head::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("./img/1.jpg");
+  background-size: cover;
+}
+
+.cover {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  width: 250px;
+  z-index: 2;
+  border-radius: 500px;
+  border: 10px #fff solid;
+  box-shadow: 0 5px 10px #00000065;
+}
+
+.data {
+  padding: 190px 100px 100px 280px;
+  text-shadow: 0 0 10px #3b022c;
+}
+
+.data .title1 {
+  color: white;
+  font-size: 50px;
+  font: 900 50px '';
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.data .title1 span {
+  position: absolute;
+  top: 17px;
+  margin-left: 12%;
+  background: #ffed85;
+  border-radius: 5px;
+  color: #4d0139;
+  font-size: 14px;
+  padding: 0px 4px;
+}
+
+.data .title2 {
+  color: #fff;
+  font: 500 24px '';
+}
+
+.foot {
+  line-height: 26px;
+  color: #444;
+}
+
+.tags {
+  padding-left: 4%;
+  padding-top: 100px;
+  width: 250px;
+  float: left;
+  text-align: center;
+}
+
+.tag {
+  background: rgb(248, 95, 172);
+  color: #fff;
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 14px;
+  margin-right: 4px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background: #f0da62;
+  color: #444;
+}
+
+.introduce {
+  padding: 25px 20% 0 35px;
+  width: 80%;
+  float: left;
+}
+
+
+.redbook {
+  transition: transform 0.5s ease;
+  /* 平滑过渡效果 */
+}
+
+.redbook:hover {
+  transform: scale(1.5);
+  /* 放大到原始尺寸的1.5倍 */
+
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('font/myfont.ttf') format('ttf'),
+    url('font/myfont.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+.body {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+
+.heading {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 80px;
+}
+
+.heading-2 {
+  color: #fff;
+  object-fit: fill;
+  margin-bottom: 40px;
+  font-size: 40px;
+  overflow: visible;
+}
+
+.heading-3 {
+  color: #fff;
+  object-fit: fill;
+  margin-bottom: 40px;
+  font-size: 20px;
+  overflow: visible;
+}
+
+.paragraph {
+  color: #fff;
+  line-height: 26px;
+}
+
+
+.image-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.fun {
+  background-color: #cbb9fa;
+  border: 1px solid #6648b1;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  max-width: 100%;
+}
+
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color: #a6a3f7;
+}
+
+.fa-twitter {
+  color: #5ecdf5;
+}
+
+.fa-google-plus-g {
+  color: #f8a1db;
+}
+
+.fa-instagram {
+  color: #8df1df;
+}
+
+.fa-youtube {
+  color: #f9c4c4;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #ae0882;
+}
+
+footer {
+  background-color: #5a4e55;
+  color: #ffffff;
+  padding-top: 2rem;
+}
+
+.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0;
+}
+
+
+
+#fixed {
+  background-image: url('img/1-1.jpeg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
